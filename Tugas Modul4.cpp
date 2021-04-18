@@ -1,6 +1,4 @@
 #include <iostream>
-#include <conio.h>
-#include <string.h>
 
 using namespace std;
 
@@ -34,7 +32,7 @@ void footer() {
 
 void ask() {
 	cout << "\n\n \tPemesanan selesai \n";
-	cout << "Apakah Anda ingin memesan makaknan yang lain ?\n";
+	cout << "Apakah Anda ingin memesan makanan yang lain ?\n";
 	cout << "\n1) ya\n2) tidak\n\n";
 }
 
@@ -42,6 +40,16 @@ int main() {
 	int a, w, x, y, z, total, kembalian, saldo = 100000, harga[4] = { 8000, 12000, 20000, 5000 }, i = 0;
 	char nama[10];
 	paket makanan;
+
+
+	cout << "Program Pemesanan makanan Modul 4\n";
+	cout << "Shift 1\n";
+	cout << "Anggota kelompok 18 :\n";
+	cout << "Hammam Faiz            21120120140076\n";
+	cout << "Muhammad Arif Razmi    21120120130116\n";
+	cout << "Renaldy Andara Permata 21120120130055\n";
+	cout << "Zulzupi Pajarudin      21120120140152\n";
+
 
 	header();
 	cout << "Masukkan nama Anda terlebih dahulu : "; cin >> nama;
@@ -112,7 +120,6 @@ daftar:
 		system("cls");
 		goto daftar;
 	}
-	
 	do {
 		if (saldo < total) {
 			cout << "\tTotal uang yang harus Anda bayarkan : " << total << endl;
@@ -139,7 +146,6 @@ daftar:
 	system("cls");
 	ask();
 	cin >> a;
-	
 	switch (a) {
 	case 1:
 		system("cls");
@@ -153,7 +159,7 @@ daftar:
 		break;
 	}
 
-	
-	
+
+
 }
 
