@@ -3,4 +3,7 @@
 
 using namespace std;
 
+void header() {
+  cout << "Warung Tegal Bukan Di Tegal";
+}
 
