@@ -1,5 +1,4 @@
 masih bingung
-test coba 
-ilang ga
-hayooo 
-bingung deh
+bIqbuifbABICS HC
+VBBJWDCjbxJBNjbe jj qe
+va ejq cdj
