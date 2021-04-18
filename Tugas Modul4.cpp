@@ -112,6 +112,7 @@ daftar:
 		system("cls");
 		goto daftar;
 	}
+	
 	do {
 		if (saldo < total) {
 			cout << "\tTotal uang yang harus Anda bayarkan : " << total << endl;
@@ -138,6 +139,7 @@ daftar:
 	system("cls");
 	ask();
 	cin >> a;
+	
 	switch (a) {
 	case 1:
 		system("cls");
@@ -151,7 +153,7 @@ daftar:
 		break;
 	}
 
-
-
+	
+	
 }
 
