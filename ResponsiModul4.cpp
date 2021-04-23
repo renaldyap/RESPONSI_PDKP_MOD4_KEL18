@@ -1,4 +1,3 @@
-
 #include <iostream>     
 #include <cstring>        
 using namespace std;
@@ -10,14 +9,6 @@ int batas(int masukan) {
 	else return masukan;
 }
 
-
-string enkripsi(string masukan) {
-	string temp;
-	for (int indeks = 0; indeks < masukan.length(); indeks++) {
-		temp += enkripsi(masukan.at(indeks));
-	}
-	return temp;
-}
 
 //
 char enkripsi(char c) {
